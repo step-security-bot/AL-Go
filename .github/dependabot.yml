@@ -14,3 +14,8 @@ updates:
     - dependency-name: "microsoft/AL-Go-Actions/*"
   schedule:
     interval: weekly
+
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: daily
